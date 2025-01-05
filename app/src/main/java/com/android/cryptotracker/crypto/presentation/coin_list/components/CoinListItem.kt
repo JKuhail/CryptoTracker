@@ -17,11 +17,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.android.cryptotracker.crypto.domain.Coin
 import com.android.cryptotracker.crypto.presentation.models.CoinUi
 import com.android.cryptotracker.crypto.presentation.models.toCoinUi
@@ -83,7 +80,7 @@ private fun CoinListItemPreview() {
         CoinListItem(
             coinUi = previewCoin,
             onCoinClick = {},
-            modifier = Modifier.background(MaterialTheme.colorScheme.primaryContainer)
+            modifier = Modifier.background(MaterialTheme.colorScheme.background)
         )
     }
 }
