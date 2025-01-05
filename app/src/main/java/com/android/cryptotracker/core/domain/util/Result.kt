@@ -1,4 +1,4 @@
-package com.android.cryptotracker.util
+package com.android.cryptotracker.core.domain.util
 
 typealias DomainError = Error
 

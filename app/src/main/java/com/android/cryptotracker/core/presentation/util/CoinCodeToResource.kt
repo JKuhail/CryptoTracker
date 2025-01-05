@@ -1,4 +1,4 @@
-package com.android.cryptotracker.util
+package com.android.cryptotracker.core.presentation.util
 
 import com.android.cryptotracker.R
 
