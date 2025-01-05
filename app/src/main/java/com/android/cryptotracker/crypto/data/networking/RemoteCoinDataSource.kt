@@ -23,5 +23,4 @@ class RemoteCoinDataSource(
             )
         }.map { response -> response.data.map { it.toCoin() } }
     }
-    
 }
