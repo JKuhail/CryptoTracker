@@ -51,11 +51,17 @@ val Typography = Typography(
     ),
     labelMedium = TextStyle(
         fontFamily = SpaceMono,
-        fontWeight = FontWeight.Normal,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 16.sp
     ),
     headlineMedium = TextStyle(
         fontFamily = SpaceMono,
         fontWeight = FontWeight.Bold,
         fontSize = 18.sp
-    )
+    ),
+    headlineLarge = TextStyle(
+        fontFamily = SpaceMono,
+        fontWeight = FontWeight.Bold,
+        fontSize = 20.sp
+    ),
 )
