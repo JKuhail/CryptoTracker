@@ -3,6 +3,7 @@ package com.jkuhail.cryptotracker.crypto.presentation.models
 import androidx.annotation.DrawableRes
 import com.jkuhail.cryptotracker.crypto.domain.Coin
 import com.jkuhail.cryptotracker.core.presentation.util.getDrawableIdForCoin
+import com.jkuhail.cryptotracker.crypto.presentation.coin_details.DataPoint
 import java.text.NumberFormat
 import java.util.Locale
 
@@ -14,7 +15,8 @@ data class CoinUi(
     val marketCapUsd: DisplayableNumber,
     val priceUsd: DisplayableNumber,
     val changePercent24Hr: DisplayableNumber,
-    @DrawableRes val icon: Int
+    @DrawableRes val icon: Int,
+    val coinPriceHistory: List<DataPoint> = emptyList()
 )
 
 data class DisplayableNumber(
