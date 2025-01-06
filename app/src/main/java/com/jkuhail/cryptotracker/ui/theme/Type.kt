@@ -64,4 +64,14 @@ val Typography = Typography(
         fontWeight = FontWeight.Bold,
         fontSize = 20.sp
     ),
+    displayLarge = TextStyle(
+        fontFamily = SpaceMono,
+        fontWeight = FontWeight.Bold,
+        fontSize = 40.sp
+    ),
+    displayMedium = TextStyle(
+        fontFamily = SpaceMono,
+        fontWeight = FontWeight.Light,
+        fontSize = 20.sp
+    ),
 )
