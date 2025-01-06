@@ -19,7 +19,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import com.jkuhail.cryptotracker.R
@@ -31,7 +30,6 @@ fun InfoCard(
     formattedText: String,
     icon: ImageVector,
     contentColor: Color = MaterialTheme.colorScheme.onSurface,
-    formattedTextStyle: TextStyle = MaterialTheme.typography.headlineMedium,
     modifier: Modifier = Modifier
 ) {
     Card(
@@ -75,7 +73,7 @@ fun InfoCard(
         ) { formattedText ->
             Text(
                 text = formattedText,
-                style = formattedTextStyle,
+                style = MaterialTheme.typography.headlineMedium,
                 color = contentColor,
                 modifier = Modifier
                     .padding(horizontal = 16.dp)

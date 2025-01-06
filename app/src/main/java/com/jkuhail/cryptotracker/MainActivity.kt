@@ -41,9 +41,15 @@ class MainActivity : ComponentActivity() {
                         }
                     }
 
+                    /**
+                     * @param onAction -> The :: operator is used to create a member reference
+                     * which is a way to refer to a function or property of a class without
+                     * actually calling it. It's like a pointer to the function or property.
+                     */
                     CoinListScreen(
                         state = state.value,
-                        modifier = Modifier.padding(innerPadding)
+                        modifier = Modifier.padding(innerPadding),
+                        onAction = viewModel::onAction
                     )
                 }
             }
