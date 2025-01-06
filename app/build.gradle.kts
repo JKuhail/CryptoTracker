@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.android.cryptotracker"
+    namespace = "com.jkuhail.cryptotracker"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.android.cryptotracker"
+        applicationId = "com.jkuhail.cryptotracker"
         minSdk = 30
         targetSdk = 34
         versionCode = 1
